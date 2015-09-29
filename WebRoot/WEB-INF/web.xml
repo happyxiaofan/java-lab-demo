@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <display-name></display-name>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminLoginServlet</servlet-name>
+    <servlet-class>control.AdminLoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RequireServlet</servlet-name>
+    <servlet-class>control.RequireServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TypeServlet</servlet-name>
+    <servlet-class>control.TypeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CourseServlet</servlet-name>
+    <servlet-class>control.CourseServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Class</servlet-name>
+    <servlet-class>control.Class</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MajorServlet</servlet-name>
+    <servlet-class>control.MajorServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LabServlet</servlet-name>
+    <servlet-class>control.LabServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ExperimenterServlet</servlet-name>
+    <servlet-class>control.ExperimenterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ExperimentServlet</servlet-name>
+    <servlet-class>control.ExperimentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TeacherLoginServlet</servlet-name>
+    <servlet-class>control.TeacherLoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ApplyLabServlet</servlet-name>
+    <servlet-class>control.ApplyLabServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ApplyLabDetailsAction</servlet-name>
+    <servlet-class>control.ApplyLabDetailsAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminApplyLabDetailsAction</servlet-name>
+    <servlet-class>control.AdminApplyLabDetailsAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CheckLabDetailsAction</servlet-name>
+    <servlet-class>control.CheckLabDetailsAction</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>AdminLoginServlet</servlet-name>
+    <url-pattern>/AdminLoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RequireServlet</servlet-name>
+    <url-pattern>/RequireServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TypeServlet</servlet-name>
+    <url-pattern>/TypeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CourseServlet</servlet-name>
+    <url-pattern>/CourseServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Class</servlet-name>
+    <url-pattern>/ClassServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MajorServlet</servlet-name>
+    <url-pattern>/MajorServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LabServlet</servlet-name>
+    <url-pattern>/LabServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ExperimenterServlet</servlet-name>
+    <url-pattern>/ExperimenterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ExperimentServlet</servlet-name>
+    <url-pattern>/ExperimentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TeacherLoginServlet</servlet-name>
+    <url-pattern>/TeacherLoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ApplyLabServlet</servlet-name>
+    <url-pattern>/ApplyLabServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ApplyLabDetailsAction</servlet-name>
+    <url-pattern>/ApplyLabDetailsAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminApplyLabDetailsAction</servlet-name>
+    <url-pattern>/AdminApplyLabDetailsAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckLabDetailsAction</servlet-name>
+    <url-pattern>/CheckLabDetailsAction</url-pattern>
+  </servlet-mapping>
+</web-app>

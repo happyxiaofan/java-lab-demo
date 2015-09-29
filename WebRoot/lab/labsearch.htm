@@ -1,0 +1,277 @@
+<script>window.open('Public/SingleLabSearch.aspx?lab=0&labName=全部&year=2011&term=上学期')</script>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" >
+<HTML>
+	<HEAD>
+		<title>实验室安排查询</title>
+		<meta name="GENERATOR" Content="Microsoft Visual Studio .NET 7.1">
+		<meta name="CODE_LANGUAGE" Content="C#">
+		<meta name="vs_defaultClientScript" content="JavaScript">
+		<meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5">
+		<style type="text/css">
+BODY { MARGIN-TOP: 0px }
+		</style>
+		<LINK href="Template068Blank.css" type="text/css" rel="stylesheet">
+		<LINK href="style.css" type="text/css" rel="stylesheet">
+	</HEAD>
+	<body>
+		<form name="Form1" method="post" action="SearchLabDistribution.aspx" id="Form1">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTk4NTM1NTMwMQ9kFgICAQ9kFgwCAQ9kFgQCAQ8QDxYGHg1EYXRhVGV4dEZpZWxkBQVkTmFtZR4ORGF0YVZhbHVlRmllbGQFBmRlcHRubx4LXyFEYXRhQm91bmRnZBAVCwnor7fpgInmi6kZ5LyB5Lia566h55CG57O7ICAgICAgICAgIBnkv6Hmga/nrqHnkIbns7sgICAgICAgICAgGOmHkeiejeWtpuezuyAgICAgICAgICAgIBnotKLliqHmipXotYTns7sgICAgICAgICAgGee7j+a1jui0uOaYk+ezuyAgICAgICAgICAY5Lya6K6h5a2m57O7ICAgICAgICAgICAgFuihjOaUvyAgICAgICAgICAgICAgICAX5Y2a5aOr5ZCOICAgICAgICAgICAgICAZ6JCl6ZSA5peF5ri457O7ICAgICAgICAgIBvnoJTnqbbnlJ/nrqHnkIbkuK3lv4MgICAgICAVCwEwAjAxAjAyAjAzAjA0AjA1AjA2AjExAjIwAjA3AjEyFCsDC2dnZ2dnZ2dnZ2dnFgFmZAIDDxBkEBUBCeivt+mAieaLqRUBCeivt+mAieaLqRQrAwFnZGQCDQ8QDxYGHwAFBFllYXIfAQUEWWVhch8CZ2QQFQUEMjAxMQQyMDEzBDIwMTIEMjAxMAQyMDE0FQUEMjAxMQQyMDEzBDIwMTIEMjAxMAQyMDE0FCsDBWdnZ2dnZGQCEQ8PFgQeBFRleHQFDOWunumqjOWupO+8mh4HVmlzaWJsZWdkZAIZDxAPFggfAAUHbGFiTmFtZR8BBQJJRB8CZx8EZ2QQFQwG5YWo6YOoBueuoTMwMQbnrqEzMDQG566hMzA4BueuoTMwOQbnrqEzMTAG566hMzEzIueuoTUwMSjmmoLml7bku4XpmZBaLVRSRUXlrp7pqozvvIki566hNTIwKOS7hemZkOS6uuWKm+i1hOa6kOWunumqjO+8iRznrqE1MjEo5LuF6ZmQ55y85Yqo5a6e6aqM77yJHOeuoTUyMijku4XpmZDohJHnlLXlrp7pqozvvIki566hNjAyKOS7hemZkOaymeebmOaooeaLn+WunumqjO+8iRUMATABMQE2ATcBMgEzATQBOQIxMAIxMQIxMgE1FCsDDGdnZ2dnZ2dnZ2dnZ2RkAh0PFgIfBGgWBmYPZBYCAgEPZBYCAgEPEGRkFgBkAgEPZBYCAgEPZBYCAgEPEGRkFgBkAgIPZBYCAgEPZBYCAgEPEGRkFgBkAh8PEGRkFgBkGAEFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYBBRFUb3AxJEltYWdlQnV0dG9uMZqtNT2Oe9Y/jm+TTa6Hc31a77A5" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['Form1'];
+if (!theForm) {
+    theForm = document.Form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<div>
+
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWKAKIosWIBAKzpKGgDgKjy4vOAgKjy8fNAgKjy8PNAgKjy//NAgKjy/vNAgKjy/fNAgKjy/PNAgK8y8fNAgK9y8vNAgKjy+/NAgK8y8PNAgKaw8v7DwKBmayrBQLL7cazDwLM9PumDwKWosD8CgKxi96RBQKSitj8DgL4wf6VAgL4wYbfAwL4weqyCwL4wcLICQL4wbLkBALo2fjIDAL32fjIDAKXrvuICgKIrvuICgKNrvuICgKOrvuICgKJrvuICgKKrvuICgKLrvuICgKQrvuICgKIrruLCgKIrreLCgKIrrOLCgKMrvuICgLCi9reA9hmsffmJai8U4RxLfCtWkD11Po+" />
+</div>
+			
+ 
+	<table class="Top" cellSpacing="0" cellPadding="0" width="752" align="center">
+		<tr>
+			<td><IMG height="108" src="imagesBlank/TopRow1.jpg" width="750"></td>
+		</tr>
+	</table>
+	<table class="Middle" cellSpacing="0" cellPadding="0" width="752" align="center">
+		<tr>
+			<td width="344"><IMG src="imagesBlank/Back1.jpg" width="344"></td>
+			<td width="76"><A href="Index.aspx"><IMG height="32" src="imagesBlank/ButtonHome.gif" width="76" border="0"></A></td>
+			<td width="88"><A href="Documents.aspx"><IMG height="32" src="imagesBlank/ButtonCompany.gif" width="88" border="0"></A></td>
+			
+    <td width="92"><a href="http://bs.csu.edu.cn/LaboratoryMIS/Laboratory/openexperiment.htm" ><IMG height="32" src="imagesBlank/ButtonProducts.gif" width="92" border="0"></a></td>
+			<td width="76"><a href="http://202.197.59.129:8080" target="_blank"><IMG height="32" src="imagesBlank/ButtonService.gif" width="76" border="0"></a></td>
+			<td width="75"><a href="http://202.197.59.161/weboffice" target="_blank"><IMG height="32" src="imagesBlank/ButtonLogin.gif" width="74" border="0"></a></td>
+		</tr>
+	</table>
+	<table class="Middle" cellSpacing="0" cellPadding="0" width="752" align="center">
+		<tr>
+			<td class="Color1"><a href="http://bs.csu.edu.cn" target="_blank"><IMG height="32" src="imagesBlank/Back3.gif" width="324" border="0"></a></td>
+			<td class="Color1">系别:<select name="Top1$ddlDepts" onchange="javascript:setTimeout('__doPostBack(\'Top1$ddlDepts\',\'\')', 0)" id="Top1_ddlDepts" class="SELECT1" style="width:93px;">
+	<option selected="selected" value="0">请选择</option>
+	<option value="01">企业管理系          </option>
+	<option value="02">信息管理系          </option>
+	<option value="03">金融学系            </option>
+	<option value="04">财务投资系          </option>
+	<option value="05">经济贸易系          </option>
+	<option value="06">会计学系            </option>
+	<option value="11">行政                </option>
+	<option value="20">博士后              </option>
+	<option value="07">营销旅游系          </option>
+	<option value="12">研究生管理中心      </option>
+
+</select></td>
+			<td class="Color1" style="WIDTH: 121px">姓名:<select name="Top1$ddlTeacher" id="Top1_ddlTeacher" class="SELECT1" style="width:81px;">
+	<option selected="selected" value="请选择">请选择</option>
+
+</select></td>
+			<td class="Color1">密码:</td>
+			<td class="Color1"><input name="Top1$txtPassword" type="password" id="Top1_txtPassword" class="INPUT1" style="width:100px;" /></td>
+			<td class="Color1">&nbsp;
+				<input type="image" name="Top1$ImageButton1" id="Top1_ImageButton1" src="imagesBlank/ButtonGo.gif" style="border-width:0px;" />&nbsp;</td>
+		</tr>
+	</table>
+ 
+
+			<table width="752" align="center" cellpadding="0" cellspacing="0" class="Middle">
+				<tr height="1">
+					<td height="634" valign="top" class="ImageBack">
+						
+<p class="NoBreakBefore"><IMG height="30" src="imagesBlank/Back4.gif" width="130"></p>
+<table width="106%">
+	<tr>
+		<td>
+			<div align="center"><A href="SearchLabDistribution.aspx"><IMG src="imagesBlank/anpai1.jpg" width="100" height="20" border="0"></A></div>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<div align="center"><A href="SearchLabDistribution.aspx"><IMG src="imagesBlank/Photo4.jpg" width="113" height="77" border="0"></A></div>
+		</td>
+	</tr>
+	<tr>
+		<td style="HEIGHT: 22px"><A href="TeacherIndex.aspx"><IMG src="imagesBlank/shenqing.jpg" width="100" height="20" border="0"></A></td>
+	</tr>
+	<tr>
+		<td>
+			<div align="center"><A href="TeacherIndex.aspx"><IMG src="imagesBlank/Photo3.jpg" width="113" height="77" border="0"></A></div>
+		</td>
+	</tr>
+	<tr>
+		<td><A href="News.aspx?Category=规章制度"><IMG src="imagesBlank/zhidu.jpg" width="100" height="20" border="0"></A></td>
+	</tr>
+	<tr>
+		<td>
+			<div align="center"><A href="News.aspx?Category=规章制度"><IMG src="imagesBlank/Photo5.jpg" width="109" height="73" border="0"></A></div>
+		</td>
+	</tr>
+	<tr>
+		<td><A href="News.aspx?Category=实验室服务"><IMG src="imagesBlank/fuwu1.jpg" width="100" height="20" border="0"></A></td>
+	</tr>
+	<tr>
+		<td>
+			<div align="center"><A href="News.aspx?Category=实验室服务"><IMG src="imagesBlank/Photo6.jpg" width="109" height="85" border="0"></A></div>
+		</td>
+	</tr>
+</table>
+<p class="DoubleBreakBefore NoBreakAfter" align="center"><FONT face="宋体"></FONT>&nbsp;</p>
+<p class="NoBreakBefore" align="center">&nbsp;</p>
+<p class="Indented28R Font" align="center"><br>
+</p>
+<p class="Indented28R Font" align="right">&nbsp;</p>
+<p class="Indented28R Font" align="center">&nbsp;</p>
+<p class="Indented28R Font" align="right">&nbsp;</p>
+<p class="Indented28R Font" align="center"></p>
+</TD>
+<td>
+	<table height="100%" cellSpacing="0" cellPadding="0">
+		<tr>
+			<td><IMG height="118" src="imagesBlank/Back5.jpg" width="87"></td>
+		</tr>
+		<tr height="100%">
+			<td class="VShadowBack"><FONT face="宋体"></FONT></td>
+		</tr>
+		<tr>
+			<td><IMG height="126" src="imagesBlank/Image.jpg" width="87"></td>
+		</tr>
+	</table>
+
+					</td>
+					<td valign="top" width="100%">
+						<table cellpadding="0" cellspacing="0" width="100%">
+							<tr>
+								<td height="604" class="Color2">
+									<table width="100%" vspace="0" height="100%" align="right" cellpadding="0" cellspacing="0">
+										<tr>
+											<td height="575" align="left" valign="top"><table width="100%" height="432" border="0" cellspacing="0">
+													<tr>
+														<td width="8%" height="64" style="HEIGHT: 64px">&nbsp;</td>
+														<td width="92%" style="HEIGHT: 64px">
+															<a id="LinkButton1" href="javascript:__doPostBack('LinkButton1','')">按实验室查询</a>&nbsp;
+															<a id="LinkButton3" href="javascript:__doPostBack('LinkButton3','')">按教师查询</a>&nbsp;
+															<a id="LinkButton2" href="javascript:__doPostBack('LinkButton2','')">按班级查询</a>&nbsp;
+															<a id="LbtnWeek" href="javascript:__doPostBack('LbtnWeek','')">按周次查询</a>
+														</td>
+													</tr>
+													<tr>
+														<td>&nbsp;</td>
+														<td align="left" valign="top" id="TD1"><table width="438" border="0" cellpadding="0" cellspacing="0" bordercolor="#999999" style="WIDTH: 438px; HEIGHT: 232px">
+																<tr>
+																	<td colspan="4">请输入查询条件：</td>
+																</tr>
+																<tr>
+																	<td width="19%">学年：</td>
+																	<td width="30%">&nbsp;
+																		<select name="ddlYear" id="ddlYear" style="height:24px;width:76px;">
+	<option selected="selected" value="2011">2011</option>
+	<option value="2013">2013</option>
+	<option value="2012">2012</option>
+	<option value="2010">2010</option>
+	<option value="2014">2014</option>
+
+</select></td>
+																	<td width="24%">学期：</td>
+																	<td width="27%">&nbsp;
+																		<select name="ddlTerm" id="ddlTerm" style="height:24px;width:76px;">
+	<option selected="selected" value="0">上学期</option>
+	<option value="1">下学期</option>
+
+</select></td>
+																</tr>
+																<tr>
+																	<td>
+																		<span id="lblLib">实验室：</span>
+																		
+																		
+																		</td>
+																	<td colspan="3">&nbsp;
+																		<select name="ddlLib" id="ddlLib" style="height:24px;width:122px;">
+	<option selected="selected" value="0">全部</option>
+	<option value="1">管301</option>
+	<option value="6">管304</option>
+	<option value="7">管308</option>
+	<option value="2">管309</option>
+	<option value="3">管310</option>
+	<option value="4">管313</option>
+	<option value="9">管501(暂时仅限Z-TREE实验）</option>
+	<option value="10">管520(仅限人力资源实验）</option>
+	<option value="11">管521(仅限眼动实验）</option>
+	<option value="12">管522(仅限脑电实验）</option>
+	<option value="5">管602(仅限沙盘模拟实验）</option>
+
+</select>
+																		
+																		
+																		
+																	</td>
+																</tr>
+																<tr>
+																	<td><FONT face="宋体">&nbsp;</FONT></td>
+																	<TD colSpan="3">&nbsp;
+																	</TD>
+																</tr>
+																<tr>
+																	<td colspan="4" align="center">&nbsp;
+																		<input type="submit" name="btnSubmit" value="搜索" id="btnSubmit" style="width:83px;" /></td>
+																</tr>
+																<TR>
+																	<TD align="center" colSpan="4"><FONT face="宋体">如果没有反应，请检查浏览器是否阻止了弹出窗口！</FONT></TD>
+																</TR>
+															</table>
+														</td>
+													</tr>
+													<tr>
+														<td>&nbsp;</td>
+														<td>&nbsp;</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<tr>
+								<td height="16">&nbsp;
+								</td>
+							</tr>
+							<tr>
+								<td height="12" class="Color4"><img src="_blank.gif" width="1" height="12"></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+			
+<table width="752" align="center" cellpadding="0" cellspacing="0" class="Bottom">
+	<tr>
+		<td class="BarBack"><img src="_blank.gif" width="20" height="1"></td>
+		<td class="BarBack" width="100%"><img src="imagesBlank/ButtonContactUs.gif" width="125" height="25"></td>
+		<td><a href="#"><img src="imagesBlank/ButtonLinkHome.gif" border="0" width="69" height="25"></a></td>
+		<td><a href="#"><img src="imagesBlank/ButtonLinkCompany.gif" border="0" width="81" height="25"></a></td>
+		<td><a href="#"><img src="imagesBlank/ButtonLinkProducts.gif" border="0" width="89" height="25"></a></td>
+		<td><a href="#"><img src="imagesBlank/ButtonLinkService.gif" border="0" width="80" height="25"></a></td>
+		<td><a href="AdminIndex.jsp" target=_blank><img src="imagesBlank/ButtonLinkLogin.gif" border="0" width="68" height="25"></a></td>
+		<td><img src="imagesBlank/Back6.gif" width="14" height="25"></td>
+	</tr>
+</table>
+
+		</form>
+	</body>
+</HTML>

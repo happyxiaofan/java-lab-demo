@@ -1,0 +1,223 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//Dtd HTML 4.01 transitional//EN" "http://www.w3.org/tr/html4/loose.dtd">
+
+<html>
+	<head>
+		<title></title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link href="style.css" rel="stylesheet" type="text/css">
+		<script language="JavaScript" type="text/JavaScript">
+		function treeview (tr,imgs){
+			if (tr.style.display==""){ 
+					imgs.src="../imagesBlank/admin_pic2.jpg";tr.style.display="none"; 
+			}else{
+					imgs.src="../imagesBlank/admin_pic1.jpg";tr.style.display="";
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<table width="100%" height="100%" border="0" cellpadding="0"
+			cellspacing="0">
+			<tr>
+				<td width="186" valign="top" background="../imagesBlank/left_bg.jpg">
+					<table width="90%" border="0" cellspacing="0" cellpadding="0">
+						<tr>
+							<td>
+								&nbsp;
+							</td>
+						</tr>
+					</table>
+					<table width="163" border="0" align="center" cellpadding="0"
+						cellspacing="0" class="box">
+						<tr>
+							<td height="24" background="../imagesBlank/btn_bg.jpg">
+								<div align="center">
+									<a href="#######" class="box"
+										onclick="treeview(ad_system,adminpic)">系统控制台
+									</a>
+									<strong>&nbsp;&nbsp;
+										<img src="../imagesBlank/admin_pic1.jpg" width="6" height="10"
+											id="adminpic">
+									</strong>
+								</div>
+							</td>
+						</tr>
+						<tr id="ad_system">
+							<td>
+								<table width="90%" border="0" align="center" cellpadding="0"
+									cellspacing="0">
+									<tr>
+										<td align="center" class="box2">
+											<a href="../lab/UsersManage.jsp" target="mainFrame"
+												class="box2">用户管理</a>
+										</td>
+									</tr>
+									<tr>
+										<td align="center" class="box2">
+											<a href="../lab/AdminIndex.jsp" target="mainFrame">用户登陆</a>
+										</td>
+									</tr>
+									<tr>
+										<td align="center" class="box2">
+											<a href="../lab/index.jsp" target="_top">用户注销</a>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+					<table width="90%" border="0" cellspacing="0" cellpadding="0">
+						<tr>
+							<td>
+								&nbsp;
+							</td>
+						</tr>
+					</table>
+					<table width="163" border="0" align="center" cellpadding="0"
+						cellspacing="0" class="box">
+						<tr>
+							<td height="24" background="../imagesBlank/btn_bg.jpg">
+								<div align="center">
+									<a href="#######" onclick="treeview(ad_Laboratory, adminpic2)">
+									实验室系统
+									</a>
+									<strong>&nbsp;</strong><strong>&nbsp;
+										<img src="../imagesBlank/admin_pic1.jpg" width="6" height="10"
+											id="adminpic2">
+									</strong>
+								</div>
+							</td>
+						</tr>
+						<tr id="ad_Laboratory">
+							<td>
+								<div align="center">
+									<TABLE class="Grid" cellspacing="0" cellpadding="2" width="150"
+										border="0">
+										<tr>
+											<td class="controlType" align="center"
+												style="background-color: #33FFFF">
+												基本数据管理
+											</td>
+										</tr>
+										<tr>
+											<td align="center">
+												<a class="controlItem" href="../lab/Week.jsp" target="mainFrame">教学日历管理</a>
+											</td>
+										</tr>
+										<tr>
+											<td align="center">
+												<A class="controlItem" href="../lab/Require.jsp"
+													target="mainFrame">实验要求管理</A>
+											</td>
+										</tr>
+										<tr>
+											<td align="center">
+												<A class="controlItem" href="../lab/Experimenter.jsp"
+													target="mainFrame">实验者类别管理</A>
+											</td>
+										</tr>
+										<tr>
+											<td align="center">
+												<A class="controlItem" href="../lab/Type.jsp"
+													target="mainFrame">实验类型管理</A>
+											</td>
+										</tr>
+										<tr>
+											<td align="center">
+												<A class="controlItem" href="../lab/Laboratory.jsp"
+													target="mainFrame">实验室管理</A>
+											</td>
+										</tr>
+										<tr>
+											<td align="center">
+												<A class="controlItem" href="../lab/Major.jsp"
+													target="mainFrame">专业管理</A>
+											</td>
+										</tr>
+										<tr>
+											<td align="center">
+												<A class="controlItem" href="../lab/Class.jsp"
+													target="mainFrame">班级管理</A>
+											</td>
+										</tr>
+										<tr>
+											<td align="center">
+												<A class="controlItem" href="../lab/Course.jsp"
+													target="mainFrame">课程管理</A>
+											</td>
+										</tr>
+										<tr>
+											<td align="center">
+												<A class="controlItem" href="../lab/Experiment.jsp"
+													target="mainFrame">实验管理</A>
+											</td>
+										</tr>
+
+										<tr>
+											<td class="controlType" align="center"
+												style="background-color: #33FFFF">
+												实验室申请管理
+											</td>
+										</tr>
+										<tr>
+											<td align="center">
+												<A class="controlItem" href="../lab/ApplyLab.jsp"
+													target="mainFrame">申请实验室</A>
+											</td>
+										</tr>
+										<tr>
+											<td align="center">
+												<A class="controlItem" href="../lab/UncheckApplyLabList.jsp"
+													target="mainFrame">未审核申请</A>
+											</td>
+										</tr>
+										<tr>
+											<td align="center">
+												<A class="controlItem" href="../CheckLabDetails.jsp"
+													target="mainFrame">已审核申请</A>
+											</td>
+										</tr>
+										<tr>
+											<td class="controlType" align="center"
+												style="background-color: #33FFFF">
+												数据报表管理
+											</td>
+										</tr>
+										<tr>
+											<td align="center">
+												<A class="controlItem"
+													href="../lab/SearchLabDistribution.jsp" target="_blank">实验室安排查询</A>
+											</td>
+										</tr>
+										<tr>
+											<td align="center">
+												<A class="controlItem" href="../lab/labReport.jsp"
+													target="mainFrame">统计报表</A>
+											</td>
+										</tr>
+									</TABLE>
+								</div>
+							</td>
+						</tr>
+					</table>
+					<table width="90%" border="0" cellspacing="0" cellpadding="0">
+						<tr>
+							<td>
+								&nbsp;
+							</td>
+						</tr>
+					</table>
+					<table width="90%" border="0" cellspacing="0" cellpadding="0"
+						id="Table12">
+						<tr>
+							<td>
+								&nbsp;
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+
+	</body>
+</html>

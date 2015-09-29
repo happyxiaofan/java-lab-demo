@@ -1,0 +1,17 @@
+@CHARSET "UTF-8";
+BODY {
+	MARGIN-TOP: 0px
+}
+
+.hidecontent {
+	display: none;
+}
+
+li {
+	float: left;
+	list-style-type: none;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	margin-right: 1px;
+}

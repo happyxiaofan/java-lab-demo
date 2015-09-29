@@ -1,0 +1,186 @@
+BODY
+{
+    BACKGROUND-COLOR: #ffffff;
+    COLOR: #636363;
+    FONT-FAMILY: Tahoma;
+    FONT-SIZE: 11px
+}
+P
+{
+    COLOR: #636363;
+    FONT-FAMILY: Tahoma;
+    FONT-SIZE: 11px;
+    MARGIN-BOTTOM: 4px;
+    MARGIN-TOP: 4px
+}
+TABLE.Top
+{
+    BORDER-BOTTOM: #000000 1px;
+    BORDER-LEFT: #000000 1px solid;
+    BORDER-RIGHT: #000000 1px solid;
+    BORDER-TOP: #000000 1px solid
+}
+TABLE.Middle
+{
+    BORDER-BOTTOM: #000000 1px;
+    BORDER-LEFT: #000000 1px solid;
+    BORDER-RIGHT: #000000 1px solid;
+    BORDER-TOP: #000000 1px
+}
+TABLE.Bottom
+{
+    BORDER-BOTTOM: #000000 1px solid;
+    BORDER-LEFT: #000000 1px solid;
+    BORDER-RIGHT: #000000 1px solid;
+    BORDER-TOP: #000000 1px
+}
+INPUT.Width
+{
+    FONT-FAMILY: Tahoma;
+    FONT-SIZE: 11px;
+    MARGIN-BOTTOM: 0px;
+    MARGIN-TOP: 0px;
+    WIDTH: 94px
+}
+.Indented12R
+{
+    MARGIN-RIGHT: 12px
+}
+TD.Color1
+{
+    BACKGROUND-COLOR: #d7d6d4;
+    BACKGROUND-IMAGE: url(imagesBlank/HShadowBack.gif);
+    BACKGROUND-POSITION: center bottom;
+    BACKGROUND-REPEAT: repeat-x
+}
+.Indented4R
+{
+    MARGIN-RIGHT: 4px
+}
+.Indented12L
+{
+    MARGIN-LEFT: 12px
+}
+.NoBreakBeforeAfter
+{
+    MARGIN-BOTTOM: 0px;
+    MARGIN-TOP: 0px
+}
+.NoBreakBefore
+{
+    MARGIN-TOP: 0px
+}
+.NoBReakAfter
+{
+    MARGIN-BOTTOM: 0px
+}
+.DoubleBreakBefore
+{
+    MARGIN-TOP: 8px
+}
+P.Font
+{
+    COLOR: #384d5e;
+    FONT-FAMILY: 'MS Sans Serif';
+    FONT-SIZE: 12px
+}
+.Indented28R
+{
+    MARGIN-RIGHT: 28px
+}
+INPUT
+{
+    COLOR: #636363;
+    MARGIN-BOTTOM: 0px;
+    MARGIN-TOP: 0px
+}
+TD.ImageBack
+{
+    BACKGROUND-IMAGE: url(imagesBlank/ImageBack.jpg);
+    BACKGROUND-POSITION: center bottom;
+    BACKGROUND-REPEAT: no-repeat
+}
+TD.VShadowBack
+{
+    BACKGROUND-IMAGE: url(imagesBlank/VShadowBack.gif);
+    BACKGROUND-POSITION: right center;
+    BACKGROUND-REPEAT: repeat-y
+}
+.Indented8L
+{
+    MARGIN-LEFT: 8px
+}
+TD.Color2
+{
+    BACKGROUND-COLOR: #d6ecf9
+}
+TD.HSeparatorBack
+{
+    BACKGROUND-IMAGE: url(imagesBlank/HSeparatorBack.gif);
+    BACKGROUND-REPEAT: repeat-x
+}
+TD.VSeparatorBack
+{
+    BACKGROUND-IMAGE: url(imagesBlank/VSeparatorBack.gif);
+    BACKGROUND-POSITION: center center;
+    BACKGROUND-REPEAT: repeat-y
+}
+.Indented40R
+{
+    MARGIN-RIGHT: 40px
+}
+TD.Color3
+{
+    BACKGROUND-COLOR: #d7d6d4;
+    BORDER-BOTTOM: #7e7d7c 1px;
+    BORDER-LEFT: #7e7d7c 1px;
+    BORDER-RIGHT: #7e7d7c 1px;
+    BORDER-TOP: #7e7d7c 1px solid
+}
+FORM
+{
+    COLOR: #636363;
+    FONT-FAMILY: Tahoma;
+    FONT-SIZE: 11px;
+    MARGIN-BOTTOM: 0px;
+    MARGIN-TOP: 0px
+}
+TD.Color4
+{
+    BACKGROUND-COLOR: #ffffff
+}
+TD.BarBack
+{
+    BACKGROUND-IMAGE: url(../imagesBlank/BarBack.gif);
+    BACKGROUND-REPEAT: repeat-x
+}
+IMG.Bordered
+{
+    BORDER-BOTTOM: #34495a 1px solid;
+    BORDER-LEFT: #34495a 1px solid;
+    BORDER-RIGHT: #34495a 1px solid;
+    BORDER-TOP: #34495a 1px solid
+}
+.text1 {
+	font-size: 12px;
+	font-style: normal;
+	color: #000057;
+	font-family: "ËÎÌå";
+	font-variant: normal;
+
+
+}
+.test {
+	font-size: 12px;
+	line-height: 22px;
+	font-family: "ËÎÌå";
+	color: #000066;
+
+}
+
+  
+.openexp {
+	font-family: "ºÚÌå";
+	font-size: 18px;
+	color: #0000CC;
+}
